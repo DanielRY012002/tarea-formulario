@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Informacion sobre el producto</h1>
+    <fieldset>
+        <legend>Datos basicos</legend>
+        <form action="" method="get">
+            <label for="a">Nombre: </label><br>
+            <input type="text" id="caja1" class="cajita" name nombres><br>
+            <label for="a">Descripcion: </label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+            Foto: <input type="file" name="archivo" id="archico">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>datos Economicos</legend>
+
+        Precio: <input type="number" name="precio" id=caja2>$   
+        Impuestos <select name="impuesto" id="impuesto">
+            <option value="0">4%</option><br>
+            <option value="1">7%</option><br>
+            <option value="2">16%</option><br>
+            <option value="3">25%</option><br>
+        </select><br>
+        Promocion<br><section>
+            <input type="radio" id="caja4" class="cajita" name="promo">Ninguna<br>
+            <input type="radio" id="caja4" class="cajita" name="promo">Transporte gratuito<br>
+            <input type="radio" id="caja4" class="cajita" name="promo">Descuento 5%
+        </section>
+    </fieldset>
+</body>
+</html>
